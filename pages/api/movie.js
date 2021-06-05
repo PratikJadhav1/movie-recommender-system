@@ -11,7 +11,7 @@ console.logjson = (obj) => console.log(
 export default async (req, res) => {
     // const data = await getDataByQuery("radhe")
     const data = await getDataByQuery2()
-    console.logjson(data)
+    // console.logjson(data)
     // console.log("hi", req.query)
     res.status(200).json(req.query)
   }
