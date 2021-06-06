@@ -6,13 +6,13 @@ export default class MovieBoxC extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            movies: getJson(props.data),
-            data: getJson(data)
+            movies: props.data == "null" ? getJson(data) : getJson(props.data)
+            // data: getJson(data)
         }
     }
     render(){
-        console.log("movie", this.state.movies)
-        console.log("hi", this.props.data)
+        // console.log("movie", this.state.movies)
+        // console.log("hi", this.props.data)
         return (
         <div className={styles.bg}>
             <div className={styles.moviebox}>

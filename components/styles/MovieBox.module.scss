@@ -14,9 +14,15 @@
     }
     img {
         cursor: pointer;
-        border-radius: 10px;
-        max-width: 50%;
-        max-height: 50%;
+        // border-radius: 10px;
+        max-width: 75%;
+        max-height: 75%;
+        border: white solid 10px;
+        transition: all 900ms linear;
+        &:hover {
+            // border: white solid 15px;
+            transform: scale(1.009);
+        }
     }
     .box {
         display: flex;
