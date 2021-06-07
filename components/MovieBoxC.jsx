@@ -68,6 +68,7 @@ export default class MovieBoxC extends React.Component {
                     height={300}
                     src={`/data/movie pic/Devdas.jpg`} 
                     alt={"hi"}/>
+                <img scr={"/data/movie pic/Devdas.jpg"} />
                 </div>
                 <div><br/></div>
                 <div><br/></div>
