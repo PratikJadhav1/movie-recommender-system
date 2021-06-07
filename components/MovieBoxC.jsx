@@ -9,6 +9,7 @@ export default class MovieBoxC extends React.Component {
         this.state = {
             movies: props.data == "null" ? getJson(data) : getJson(props.data),
             rmovies: props.rmovies,
+            tt: path.join(process.cwd() , "data/movies/Chachi 420.jpg")
             // data: getJson(data)
         }
     }
@@ -48,7 +49,7 @@ export default class MovieBoxC extends React.Component {
                                 <Image
                                 width={200} 
                                 height={300}
-                                src={`/data/movie pic/${i}.jpg`} 
+                                src={`/data/movies/${i}.jpg`} 
                                 alt={i}/>
                                 <div className={styles.head}>{i}</div>
                             </div>
@@ -63,12 +64,6 @@ export default class MovieBoxC extends React.Component {
                 </h1>
                 <div>{this.state.movies[0].a}</div>
                 <div><br/>
-                <Image
-                    className={styles.imgr}
-                    width={200} 
-                    height={300}
-                    src={"/data/movie pic/Chachi 420.jpg"} 
-                    alt={"hi"}/>
                 </div>
                 <div><br/></div>
                 <div><br/></div>
