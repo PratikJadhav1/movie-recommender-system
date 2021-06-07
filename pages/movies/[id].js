@@ -14,7 +14,7 @@ export default function movie(props) {
 
 export async function getServerSideProps({params}) {
     // const res = await getDataByQuery(params.id)
-    const rmovies = getRMovie()
+    const rmovies = await getRMovie()
     const res = "null" 
     return {
         props: {
