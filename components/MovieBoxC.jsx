@@ -15,59 +15,47 @@ export default class MovieBoxC extends React.Component {
         // console.log("hi", this.props.data)
         return (
         <div className={styles.bg}>
-            <div className={styles.moviebox1}>
+            <div key={"1"} className={styles.moviebox1}>
                 <img src={this.state.movies[0].img} />
             </div>
-            <div className={styles.moviebox2}>
+            <div  key={"2"} className={styles.moviebox2}>
             <div>Screenshots</div>
             {
-                this.state.movies[0].vi.map ( i =>
-                    <div 
-                    
-                    id={i.id}>
-                    <img 
-                    src={i.img} />
+                this.state.movies[0].vi.map ( (i, id) =>
+                    <div id={id.toString()}>
+                        <img src={i.img} />
                     </div>
                 )
             }
             </div>
-            <div className={styles.moviebox3}>
+            <div  key={"3"} className={styles.moviebox3}>
                 <div className={styles.names}>Recommended movies for you</div>
                 <div className={styles.rec} >
                     {
-                        this.state.movies.slice(1,).map(i =>
-                            <div key={i.id} className={styles.mbox}>   
-                                <img key={i.id} src={i.img} alt={i.id} />
-                                <div 
-                                    key={i.id.toString()}
-                                    className={styles.head}>{i.id}</div>
+                        this.state.movies.slice(1,).map((i, id) =>
+                            <div key={id.toString()} className={styles.mbox}>   
+                                <img src={i.img} alt={i.id} />
+                                <div className={styles.head}>{i.id}</div>
                             </div>
                             )
                     } 
                     {
-                        this.state.rmovies.map(i =>
-                            <div 
-                                key={i.toString()}
-                                className={styles.mbox}>
-                                <img 
-                                key={i.toString()}
-                                src={`./data/movie pic/${i}.jpg`} alt={i}/>
-                                <div 
-                                key={i.toString()}
-                                className={styles.head}>{i}</div>
+                        this.state.rmovies.map((i, id)=>
+                            <div key={(id + 100).toString()} className={styles.mbox}>
+                                <img src={`../data/movie pic/${i}.jpg`} alt={i}/>
+                                <div className={styles.head}>{i}</div>
                             </div>
                         )
                     }
                 </div>
             </div>
-            <div className={styles.moviebox4}>
+            <div key={"4"}  className={styles.moviebox4}>
                 <h1>
                     {this.state.movies[0].id}
                     ({this.state.movies[0].y})
                 </h1>
                 <div>{this.state.movies[0].a}</div>
-                <div><br/>
-                </div>
+                <div><br/></div>
                 <div><br/></div>
                 <div><br/></div>
                 <div><br/></div>
