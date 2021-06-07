@@ -63,6 +63,12 @@ export default class MovieBoxC extends React.Component {
                 </h1>
                 <div>{this.state.movies[0].a}</div>
                 <div><br/>
+                <Image
+                    className={styles.imgr}
+                    width={200} 
+                    height={300}
+                    src={`/data/movie pic/Devdas.jpg`} 
+                    alt={i}/>
                 </div>
                 <div><br/></div>
                 <div><br/></div>
