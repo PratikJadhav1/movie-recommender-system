@@ -66,7 +66,9 @@ export default class MovieBoxC extends React.Component {
                 <div><br/></div>
                 <div><br/></div>
                 <div><br/></div>
-                <div><br/></div>
+                <div><br/>
+                {this.state.rmovies}
+                </div>
             </div>
         </div>
     )}
