@@ -11,7 +11,7 @@ export default class MovieBoxC extends React.Component {
         }
     }
     render(){
-        console.log("movie", this.state.movies[0].vi)
+        // console.log("movie", this.state.movies[0].vi)
         // console.log("hi", this.props.data)
         return (
         <div className={styles.bg}>
@@ -36,14 +36,11 @@ export default class MovieBoxC extends React.Component {
                 <div className={styles.rec} >
                     {
                         this.state.movies.slice(1,).map(i =>
-                            <div 
-                                key={i.id}
-                                className={styles.mbox}
-                            >   
+                            <div key={i.id} className={styles.mbox}>   
                                 <img key={i.id} src={i.img} alt={i.id} />
                                 <div 
-                                key={i.id.toString()}
-                                className={styles.head}>{i.id}</div>
+                                    key={i.id.toString()}
+                                    className={styles.head}>{i.id}</div>
                             </div>
                             )
                     } 
