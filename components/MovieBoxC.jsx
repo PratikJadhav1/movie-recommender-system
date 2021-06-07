@@ -2,12 +2,13 @@ import React from 'react'
 import styles from "./styles/MovieBox.module.scss"
 import data, {getJson} from "../lib/data"
 import Image from 'next/image'
+import path from "path"
 export default class MovieBoxC extends React.Component {
     constructor(props){
         super(props)
         this.state = {
             movies: props.data == "null" ? getJson(data) : getJson(props.data),
-            rmovies: props.rmovies
+            rmovies: props.rmovies,
             // data: getJson(data)
         }
     }
@@ -47,7 +48,7 @@ export default class MovieBoxC extends React.Component {
                                 <Image
                                 width={200} 
                                 height={300}
-                                src={`/data/movie pic/${i}.jpg`} 
+                                src={"/data/movie pic/Holiday.jpg"} 
                                 alt={i}/>
                                 <div className={styles.head}>{i}</div>
                             </div>
@@ -66,9 +67,8 @@ export default class MovieBoxC extends React.Component {
                     className={styles.imgr}
                     width={200} 
                     height={300}
-                    src={`/data/movie pic/Devdas.jpg`} 
+                    src={"/data/movie pic/Chachi 420.jpg"} 
                     alt={"hi"}/>
-                <img scr={"/data/movie pic/Devdas.jpg"} />
                 </div>
                 <div><br/></div>
                 <div><br/></div>
