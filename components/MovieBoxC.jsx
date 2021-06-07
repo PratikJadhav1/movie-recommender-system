@@ -35,7 +35,8 @@ export default class MovieBoxC extends React.Component {
                     {
                         this.state.movies.slice(1,).map((i, id) =>
                             <div key={id.toString()} className={styles.mbox}>   
-                                <img src={i.img} alt={i.id} />
+                                <img 
+                                src={i.img} alt={i.id} />
                                 <div className={styles.head}>{i.id}</div>
                             </div>
                             )
@@ -45,7 +46,8 @@ export default class MovieBoxC extends React.Component {
                             <div key={(id + 100).toString()} className={styles.mbox}>
                                 <Image
                                 className={styles.imgr}
-                                layout={"fill"}
+                                width={200} 
+                                height={300}
                                 src={`/data/movie pic/${i}.jpg`} alt={i}/>
                                 <div className={styles.head}>{i}</div>
                             </div>
@@ -60,7 +62,6 @@ export default class MovieBoxC extends React.Component {
                 </h1>
                 <div>{this.state.movies[0].a}</div>
                 <div><br/>
-                <Image src={'/data/movie pic/Gabbar is Back.jpg'} alt='Home Page'/>
                 </div>
                 <div><br/></div>
                 <div><br/></div>
