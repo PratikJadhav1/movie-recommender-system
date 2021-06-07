@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./styles/MovieBox.module.scss"
-import Image from "next/image"
 import data, {getJson} from "../lib/data"
 export default class MovieBoxC extends React.Component {
     constructor(props){
