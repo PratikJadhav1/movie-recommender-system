@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./styles/MovieBox.module.scss"
 import data, {getJson} from "../lib/data"
+import Image from 'next/image'
 export default class MovieBoxC extends React.Component {
     constructor(props){
         super(props)
@@ -55,7 +56,9 @@ export default class MovieBoxC extends React.Component {
                     ({this.state.movies[0].y})
                 </h1>
                 <div>{this.state.movies[0].a}</div>
-                <div><br/></div>
+                <div><br/>
+                <Image src={'/bg.jpg'} alt='Home Page' width={100} height={100} />
+                </div>
                 <div><br/></div>
                 <div><br/></div>
                 <div><br/></div>
