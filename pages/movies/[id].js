@@ -8,6 +8,7 @@ export default function movie(props) {
     // const data = props.movies
     // console.log("ji", data)
     const movies = props.rmovies
+    console.log("movies", movies)
     const moviess = movies.slice(1, 5)
     console.log(moviess)
     // const rand = [...Array(5)].map(e=>Math.random()*40|0)
