@@ -8,7 +8,7 @@ export default class MovieBoxC extends React.Component {
         super(props)
         this.state = {
             movies: props.data == "null" ? getJson(data) : getJson(props.data),
-            rmovies: props.rmovies,
+            rmovies: props.rmovies == "null" ? ["2 States", "Fashion", "Fan"] : props.rmovies,
             tt: path.join(process.cwd() , "data/movies/Chachi 420.jpg")
             // data: getJson(data)
         }
