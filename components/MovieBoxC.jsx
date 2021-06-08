@@ -14,7 +14,7 @@ export default class MovieBoxC extends React.Component {
     render(){
         // console.log("movie", this.state.movies[0].vi)
         // console.log("hi", this.props.data)
-        console.log("rmovies", this.state.rmovies)
+        // console.log("rmovies", this.state.rmovies)
         return (
         <div className={styles.bg}>
             <div className={styles.moviebox1}>
