@@ -2,7 +2,8 @@ import React from 'react'
 import styles from "./styles/MovieBox.module.scss"
 import data, {getJson} from "../lib/data"
 import Image from 'next/image'
-import path from "path"
+
+
 export default class MovieBoxC extends React.Component {
     constructor(props){
         super(props)
@@ -12,9 +13,6 @@ export default class MovieBoxC extends React.Component {
         }
     }
     render(){
-        // console.log("movie", this.state.movies[0].vi)
-        // console.log("hi", this.props.data)
-        // console.log("rmovies", this.state.rmovies)
         return (
         <div className={styles.bg}>
             <div className={styles.moviebox1}>
@@ -46,11 +44,11 @@ export default class MovieBoxC extends React.Component {
                         this.state.rmovies.map((i, id)=>
                             <div key={(id + 100).toString()} className={styles.mbox}>
                                 <Image
-                                width={250}
-                                height={350}
-                                src={`/data/movies/${i}.jpg`} 
-                                alt={`/data/movies/${i}.jpg`}/>
-                                <div className={styles.head}>{`/data/movies/${i}.jpg`}</div>
+                                    width={250}
+                                    height={350}
+                                    src={`/data/movies/${i}.jpg`} 
+                                    alt={i}/>
+                                <div className={styles.head}>{i}</div>
                             </div>
                         )
                     }
@@ -66,10 +64,6 @@ export default class MovieBoxC extends React.Component {
                 </div>
                 <div><br/></div>
                 <div><br/></div>
-                <div><br/></div>
-                <div><br/>
-                {this.state.rmovies}
-                </div>
             </div>
         </div>
     )}
