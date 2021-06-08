@@ -8,10 +8,10 @@ export default function movie(props) {
     // const data = props.movies
     // console.log("ji", data)
     const moviess = props.rmovies
-    const rand = [...Array(5)].map(e=>Math.random()*40|0)
-    const movies = rand.map(i => moviess[i])
+    // const rand = [...Array(5)].map(e=>Math.random()*40|0)
+    // const movies = rand.map(i => moviess[i])
     return (
-        <MovieBoxC data={props.movies} rmovies={movies}/>
+        <MovieBoxC data={props.movies} rmovies={moviess}/>
     )
 }
 
