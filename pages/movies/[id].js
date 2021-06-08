@@ -7,7 +7,9 @@ import getRMovie from '../../lib/movies'
 export default function movie(props) {
     // const data = props.movies
     // console.log("ji", data)
-    const moviess = props.rmovies
+    const movies = props.rmovies
+    const moviess = movies.slice(1, 5)
+    console.log(moviess)
     // const rand = [...Array(5)].map(e=>Math.random()*40|0)
     // const movies = rand.map(i => moviess[i])
     return (
