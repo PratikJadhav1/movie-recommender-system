@@ -9,7 +9,7 @@ export default class MovieBoxC extends React.Component {
         super(props)
         this.state = {
             movies: props.data == "null" ? getJson(data) : getJson(props.data),
-            rmovies: props.rmovies == "null" ? ["2 States", "Fashion", "Fan", "Tere Naam"] : props.rmovies,
+            rmovies: props.rmovies == "null" ? ["2 States", "Fashion", "Tere Naam"] : props.rmovies,
         }
     }
     render(){
