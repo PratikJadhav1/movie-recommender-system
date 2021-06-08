@@ -49,7 +49,8 @@ export default class MovieBoxC extends React.Component {
                                     src={`/data/movies/${i}.jpg`} 
                                     alt={i}
                                     />
-                                <div className={styles.head}>{i}</div>
+                                <div 
+                                className={styles.head}>{i}</div>
                             </div>
                         )
                     }
