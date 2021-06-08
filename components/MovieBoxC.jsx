@@ -47,9 +47,11 @@ export default class MovieBoxC extends React.Component {
                     {
                         this.state.rmovies.map((i, id)=>
                             <div key={(id + 100).toString()} className={styles.mbox}>
-                                <img
+                                <Image
+                                width={250}
+                                height={350}
                                 src={`/data/movies/${i}.jpg`} 
-                                alt={`https://preeti.electricai.xyz/data/movies/${i}.jpg`}/>
+                                alt={`/data/movies/${i}.jpg`}/>
                                 <div className={styles.head}>{i}</div>
                             </div>
                         )
