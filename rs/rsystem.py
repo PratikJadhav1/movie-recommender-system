@@ -4,7 +4,6 @@ from pathlib import Path
 from data import movies
 import random
 def return_r(movies="Hero"):
-    
     x = Path.joinpath(Path(__file__).parent, "Movie_csv.csv")
     data = pd.read_csv(x)
     data["Genere"] = data["Genere"].replace((" Action", "Actiom", "Action ", "Actoin ", "Darama", "Drama ", "horoor", "Drama,Actiom", "Story,Darama", "Comedy,horoor"), ("Action", "Action", "Action", "Action", "Drama", "Drama", "Horoor", "Drama,Action", "Story,Drama", "Comedy,Horoor"))

@@ -4,10 +4,11 @@ import getDataByQuery, {getRMovies} from "../../lib/api"
 import getRMovie, { getRIdMovie } from "../../lib/movies"
 
 export default function movie(props) {
-    // const movies = getRMovie(true)
+    var movies
+    movies = getRMovie(false)
     // console.log(props.rmovies, "000")
     return (
-        <MovieBoxC data={props.movies} rmovies={props.rmovies}/>
+        <MovieBoxC data={props.movies} rmovies={movies}/>
     )
 }
 
