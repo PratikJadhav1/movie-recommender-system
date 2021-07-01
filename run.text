@@ -1,0 +1,5 @@
+git clone
+num install
+pip install -r requirements.txt
+python rs/main.py 
+npm run dev
