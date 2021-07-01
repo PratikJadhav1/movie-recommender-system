@@ -1,14 +1,15 @@
 from flask import Flask
-from flask_restful import Api,Resource
+from flask_restful import Api,Resource,request
 from rsystem import return_r
 
 app = Flask(__name__)
 api = Api(app)
-data = return_r()
-print(data)
 class Api(Resource):
     def get(self): 
-        print(data)       
+        arg = request.args.get("name")
+        print(arg, "arg----------------")
+        data = return_r(movies=arg)
+        print(data, "data----------------")       
         return {"data": list(dict(data).keys())}
 
 api.add_resource(Api, "/rmovies")

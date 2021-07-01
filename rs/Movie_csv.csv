@@ -1,7 +1,7 @@
 Movie Name,Genere,Language,Actor,Actress,Rating,Comments
 Radhe,Action,Hindi,Salman khan,Disha Patani,4,good
 Flight,Action,Hindi,Mohit Chadda,,3,good
-Mumbi Saga,Action,Hindi,"John Abraham,Imran Hashmi",,5,good
+Mumbai Saga,Action,Hindi,"John Abraham,Imran Hashmi",,5,good
 Vijay The Master,Action,Hindi,"Vijay,Vijay Sethupathi",Malavika,4,better
 Chakra Ka Rakshak,Action,Hindi,Vishal,Regina Casaandra,4,better
 The Power ,Action,Hindi,Vidyut Jammwal,Shruti Hasan,5,best
@@ -13,14 +13,14 @@ Mardani 2,Action,Hindi,,Rani Mukerji,4,good
 Marjaavaan,Action,Hindi,Sidharth Malhotra,Tara Sutariya,5,good
 Sahoo,Action,Hindi,Prabhas,Shradhaa Kapoor,4,good
 Bharat,Action,Hindi,Salman khan,Kateriana Kaife,3,better
- Satyamev Jayte,Action,Hindi,John Abraham,Aisha Sharma,5,best
+Satyamev Jayte,Action,Hindi,John Abraham,Aisha Sharma,5,best
 Drive,Action,Hindi,Shushant Sing Rajput, Jaqline Fernandez,4,better
 War,Action,Hindi,"Tiger Shroff,Hritik Roshan",Vanni Kapoor,3,good
 Raid,Action,Hindi,Ajay Devgan,Ileana D'Cruz,4,good
 Badshahoo,Action,Hindi,Ajay Devgan,Ileana D'Cruz,4,good
 Raees,Action,Hindi,Shahrukh Khan,Mahira Khan,3,good
 Razi,Action,Hindi,Alia Bhatt,Vicky Kaushal,3,good
-Wazeer ,Action,Hindi,Amitabh Bachhan, Aaditi Rao Hydri,4,better
+Wazeers,Action,Hindi,Amitabh Bachhan, Aaditi Rao Hydri,4,better
 Akira,Action,Hindi,,Sonakshi Sinha,3,better
 Article 15,Action,Hindi,Aayushman Khurana,Isha  Talwar,4,best
 Tanhaji,"Action,Biopic",Hindi,Ajay Devgan,Kajol Devgan,5,good
@@ -51,9 +51,9 @@ Tamasha,"Comedy,Drama",Hindi,Ranveer Kapoor,Deepika  Pdukon,4,best
 Paglait,"Comedy,Drama",Hindi,,"Sanyaa Malhotra,Shruti Sharma",3,good
 Bhoot,Horoor,Hindi,Vicky Kaushal,Bhumi Pedneker,4,good
 Bala,"Comedy,Drama",Hindi,Aayushman Khurana,"Yami Gautam,Bhumi pedneker",4,good
-Ae  Dil Hai Mushkil,Drama,Hindi,Ranveer Kapoor,"Anushka Sharma,Aishwarya Rai",5,better
+Ae Dil Hai Mushkil,Drama,Hindi,Ranveer Kapoor,"Anushka Sharma,Aishwarya Rai",5,better
 Stree,"Comedy,horoor",Hindi,Rajkumar Rao,Shardhaa Kapoor,4,better
-Sanam Teri  Kasam,"Romance,Drama",Hindi,HarshWerdhan Rane ,Mawra Hocane,5,better
+Sanam Teri Kasam,"Romance,Drama",Hindi,HarshWerdhan Rane ,Mawra Hocane,5,better
 Kabeer Singh,Drama,Hindi,Shahid Kapoor,Kiara Advani,4,good
 Pad Man,Story,Hindi,Akshay Kumar,Radhika Apte,4,good
 Sultan,"Story,Drama",Hindi,Salman khan,Anushka Sharma,3,good
@@ -71,9 +71,8 @@ M. S. Dhoni,Biopic,Hindi,Shushant Sing Rajput,"KIara Advani,Disha patani",4,good
 Aashiqui 2,"Romance,Drama",Hindi,Aaditya Roy Kapoor,Shardhaa Kapoor,4,good
 Malang,"Romance,Drama,Action",Hindi,Aaditya Roy Kapoor,Disha Patani,4,good
 Ye Jawaani Hai Deewani,"Romance,Drama",Hindi,Ranveer Kapoor,Deepika  Pdukon,3,good
-Toilet Ek Prem  Katha,"Story,Darama",Hindi,Akshay Kumar,Bhumi Pedneker,4,good
+Toilet Ek Prem Katha,"Story,Darama",Hindi,Akshay Kumar,Bhumi Pedneker,4,good
 Total Dhamal,Comedy,Hindi,Ajay Devgan,Madhuri Dixit,4,good
- Golmaal Again,Comedy,Hindi,Ajay Devgan,Kareena kapoor,5,best
 Housefull 4,comedy,Hindi,Akshay Kumar,Kriti Sannon,4,best
 Three Idiots,"Comedy,Drama",Hindi,Aameer Khan,Kareena kapoor,4,best
 Bhool Bhuliya,"Comedy,Horoor",Hindi,Akshay Kumar,Vidyaa Balan,3,better
@@ -90,7 +89,7 @@ Jodha Akbar,"History,Drama",Hindi,Hritik Roshan,Aishwarya Rai ,3,good
 Queen,Drama,Hindi,,Kangna Ranaut,4,good
 Lagaan,Drama,Hindi,Ameer Khan,"Gracy Sing,Rachel Shelley",4,good
 Hichki,Drama,Hindi,,Rani Mukerji,5,good
-English Winglish,Drama,Hindi,,Shridevi,4,good
+English vinglish,Drama,Hindi,,Shridevi,4,good
 Highway,Drama,Hindi,Randeep Hooda,Alia Bhat,5,good
 Thappad,Drama,Hindi,,Tapsi Pannu,3,good
 Panga,Drama,Hindi,Jassi Gill,Kangna Ranaut,4,best
