@@ -16,12 +16,11 @@ export async function getServerSideProps({params}) {
     const idMovie = getRIdMovie()
     const res = await getDataByQuery(params.id)
     // const res = "null"
-    console.log("idmovie", idMovie)
-    const res2 = await getRMovies(idMovie)
+    // console.log("idmovie", idMovie)
+    // const res2 = await getRMovies(idMovie)
     return {
         props: {
             movies: res,
-            rmovies: res2.data
         }
     }
 }
